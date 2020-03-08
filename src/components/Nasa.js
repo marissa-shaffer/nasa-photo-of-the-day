@@ -16,8 +16,8 @@ function Nasa() {
 
     return <NasaCard
 
-        date={article.data}
-        title={article.titel}
+        data={article.data}
+        title={article.title}
         url={article.url}
         explaination={article.explaination}
 
