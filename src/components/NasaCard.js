@@ -21,6 +21,10 @@ const NasaCard = props => {
         p{
             text-align: center;
         }
+         img{
+             width: 100%;
+             height: 100%;
+         }
     `
     return (
 
