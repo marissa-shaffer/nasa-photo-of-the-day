@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import NasaCard from "./NasaCard.js";
+import styled from "styled-components";
 
 function Nasa() {
     const [article, setArticle] = useState([]);
