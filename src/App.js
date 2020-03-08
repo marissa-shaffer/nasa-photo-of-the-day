@@ -21,7 +21,7 @@ font-size: 4rem;
 `;
 
 const AppDiv= styled.div`
-background: black;
+background: white;
 `;
 
 function App() {

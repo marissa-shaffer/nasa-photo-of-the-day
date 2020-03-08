@@ -5,16 +5,18 @@ const NasaCard = props => {
     const Container = styled.div`
         width: 60%;
         margin : 0 auto;
+        margin-bottom: 5rem; 
         padding: 10px 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: white;
+        background: grey;
+        border-radius: 10px;
         h1{
             font-weight: bold;
             font-size: 40px;
-            color: blue;
+            color: darkblue;
         }
         p{
             text-align: center;
