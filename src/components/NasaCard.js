@@ -11,11 +11,10 @@ const NasaCard = props => {
         justify-content: center;
         align-items: center;
         background: white;
-        border: 5px solid rgba(109, 109, 232, 0.9);
         h1{
             font-weight: bold;
             font-size: 40px;
-            color: rgba(109, 109, 232, 0.9);
+            color: blue;
         }
         p{
             text-align: center;
