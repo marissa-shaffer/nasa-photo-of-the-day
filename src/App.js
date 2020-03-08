@@ -12,7 +12,7 @@ border-radius: 3px;
 border: 2px solid red;
 color: white;
 margin: 1rem;
-padding: 0.25rem 1rem
+padding: 0.5rem 2rem;
 `;
 
 const TitleH1 = styled.h1`
@@ -26,15 +26,15 @@ background: black;
 
 function App() {
   return (
-    <div className="App">
+    <AppDiv className="App">
      <div className="logo-container">
-       <div className="logo" src={logo} alt="Nasa Logo"/>
+       <img className="logo" src={logo} alt="Nasa Logo"/>
        <Spinner type="grow" color ="dark" />
        <TitleH1>NASA Photo of The Day</TitleH1>
        <Button>Yesterday's Photo</Button>
        <Nasa />
      </div>
-    </div>
+    </AppDiv>
   );
 }
 
