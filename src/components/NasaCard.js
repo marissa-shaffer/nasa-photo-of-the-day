@@ -6,7 +6,7 @@ const NasaCard = props => {
         width: 60%;
         margin : 0 auto;
         margin-bottom: 5rem; 
-        padding: 10px 20px;
+        padding: 2rem 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
